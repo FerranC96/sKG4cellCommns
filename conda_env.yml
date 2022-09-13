@@ -6,6 +6,7 @@ dependencies:
   - python=3.9
   - pip
   - r-base=4
+  - jupyter
   - numpy #ALLarch
   - pandas  #ALLarch
   - scikit-learn  #ALLarch
