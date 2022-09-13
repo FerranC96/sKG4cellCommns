@@ -2,10 +2,10 @@ name: ccmultiomkge
 channels:
   # - bioconda
   # - conda-forge
-dependencies: 
+dependencies:
   - python=3.9
   - pip
-  - r-base
+  - r-base=4
   - numpy #ALLarch
   - pandas  #ALLarch
   - scikit-learn  #ALLarch
