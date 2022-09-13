@@ -1,0 +1,19 @@
+name: ccmultiomkge
+channels:
+  # - bioconda
+  # - conda-forge
+dependencies: 
+  - python=3.10
+  - pip
+  - r-base=4.2
+  - numpy #ALLarch
+  - pandas  #ALLarch
+  - scikit-learn  #ALLarch
+  - pytorch::pytorch
+  - bioconda::scprep #noarch
+  - rpy2 #ALL64arch
+  - r-rcolorbrewer #noarch
+  - r-tidyverse  #noarch
+  - conda-forge::r-seurat
+  - pip:
+    - pykeen
