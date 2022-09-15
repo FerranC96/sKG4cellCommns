@@ -12,8 +12,12 @@ dependencies:
   - scikit-learn  #ALLarch
   - pytorch::pytorch
   - bioconda::scprep #noarch
+  - matplotlib
+  - seaborn
   - rpy2 #ALL64arch
   - r-tidyverse  #noarch
   - conda-forge::r-seurat
   - pip:
     - pykeen
+    - biomart
+
