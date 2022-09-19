@@ -9,6 +9,7 @@ dependencies:
   - jupyter
   - numpy #ALLarch
   - pandas  #ALLarch
+  - networkx
   - scikit-learn  #ALLarch
   - pytorch::pytorch
   - bioconda::scprep #noarch
@@ -20,4 +21,6 @@ dependencies:
   - pip:
     - pykeen
     - biomart
+    - magic-impute
+
 
