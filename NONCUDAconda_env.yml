@@ -1,0 +1,30 @@
+name: ctest
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - pip
+  - r-base=4.*
+  - r-tidyverse=1.3.*
+  - r-seurat=4.1.*
+  - bioconda::bioconductor-singlecellexperiment
+  - conda-forge::rpy2 #This works!
+  - jupyter
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - pip:
+    - numpy
+    - pandas
+    - notebook
+    - scanpy
+    - networkx
+    - pykeen
+    - scikit-learn
+   #- torch #PIp install torch fails on farnam as it gets stuck during donwload
+    - scprep
+    - matplotlib
+    - seaborn
+    - anndata2ri
+    - biomart
+    - magic-impute
