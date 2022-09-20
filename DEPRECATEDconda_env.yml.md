@@ -1,4 +1,4 @@
-name: ctest
+name: ccmultiomkge
 channels:
   - conda-forge
 dependencies:
@@ -7,22 +7,19 @@ dependencies:
   - r-base=4.*
   - r-tidyverse=1.3.*
   - r-seurat=4.1.*
-  - bioconda::bioconductor-singlecellexperiment
-  - conda-forge::rpy2 #This works!
-  - jupyter
   - pip:
     - numpy
     - pandas
     - notebook
     - scanpy
-    # - networkx
+    - networkx
     - pykeen
     - scikit-learn
     - torch
     - scprep
     - matplotlib
     - seaborn
-    # - rpy2
+    - rpy2
     - anndata2ri
     - biomart
     - magic-impute
