@@ -10,19 +10,22 @@ dependencies:
   - bioconda::bioconductor-singlecellexperiment
   - conda-forge::rpy2 #This works!
   - jupyter
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::torchaudio
+  - cudatoolkit=11.3.*
   - pip:
     - numpy
     - pandas
     - notebook
     - scanpy
-    # - networkx
+    - networkx
     - pykeen
     - scikit-learn
-    - torch
+   #- torch #PIp install torch fails on farnam as it gets stuck during donwload
     - scprep
     - matplotlib
     - seaborn
-    # - rpy2
     - anndata2ri
     - biomart
     - magic-impute
