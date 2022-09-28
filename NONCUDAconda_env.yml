@@ -1,4 +1,4 @@
-name: ctest
+name: collabLite
 channels:
   - conda-forge
 dependencies:
@@ -21,8 +21,10 @@ dependencies:
     - networkx
     - pykeen
     - scikit-learn
-   #- torch #PIp install torch fails on farnam as it gets stuck during donwload
+    - phate
+    - scipy
     - scprep
+    - DiffusionEMD
     - matplotlib
     - seaborn
     - anndata2ri
