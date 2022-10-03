@@ -1,6 +1,7 @@
 /data/DBs/murineSTRING.txt
 /data/DBs/Ensembl2Reactome_ALL.txt
 /data/DBs/Ensembl2Reactome.txt
+data/DBs/Ensembl2Reactome_PE_Pathway.txt
 data/Omics/d_fibWT.rds
 data/cell_graph.npy
 data/cell_graph_scram.npy
