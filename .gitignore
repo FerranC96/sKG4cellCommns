@@ -7,5 +7,5 @@ data/cell_graph.npy
 data/cell_graph_scram.npy
 data/cell_projection.npz
 data/cellKGE_projection.npz
-
-
+data/cell_projection_nnKGwav.npz
+data/cellKGE_projection_nnKGEwav.npz
