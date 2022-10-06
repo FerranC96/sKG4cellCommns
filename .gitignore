@@ -9,3 +9,7 @@ data/cell_projection.npz
 data/cellKGE_projection.npz
 data/cell_projection_nnKGwav.npz
 data/cellKGE_projection_nnKGEwav.npz
+data/Omics/d_fibA.rds
+data/Omics/d_fibAK.rds
+data/Omics/d_fibAKP.rds
+data/cell_projection_nnKGwav_GEN.npz
