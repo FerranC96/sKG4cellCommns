@@ -17,3 +17,6 @@ data/cell_projection_nnKGwav_GENepi.npz
 data/cell_projection_SCRAM_nnKGwav.npz
 data/cell_projection_KGnn2WAV.npz
 data/DBs/Ensembl2Reactome_PE_All_Levels.txt
+data/DBs/ReactomePathwaysRelation.txt
+data/cell_projection_KGnn3WAV.npz
+
