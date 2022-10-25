@@ -19,4 +19,11 @@ data/cell_projection_KGnn2WAV.npz
 data/DBs/Ensembl2Reactome_PE_All_Levels.txt
 data/DBs/ReactomePathwaysRelation.txt
 data/cell_projection_KGnn3WAV.npz
+data/dMagicCyt.csv.tar.gz
+data/dMagicRnaSeq.csv.tar.gz
+data/multi_projection.npz
+data/multi_projection_KGlrp_RGCN_WTfib.npz
+data/multi_projection_KGlrp_TransE_WTfib.npz
+data/multi_projection_KGlrp_inverseTransE_WTfib.npz
+1dKGlrp-VizModels.ipynb
 
