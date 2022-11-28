@@ -26,4 +26,5 @@ data/multi_projection_KGlrp_RGCN_WTfib.npz
 data/multi_projection_KGlrp_TransE_WTfib.npz
 data/multi_projection_KGlrp_inverseTransE_WTfib.npz
 1dKGlrp-VizModels.ipynb
+data/multi_projection_KGlrp2_RGCN_WTfib.npz
 
