@@ -1,6 +1,8 @@
-# yaleCollab_TAPE-KRISHNASWAMY
+# Signalling Knowledge Graphs for Cell Communications
 
-Yale Collab with Aarthi (Smita Krishnaswamy group). KGE of multiomics single-cell communications and signalling
+Here I explore an approach for holistic inter- and intra-cellular communication analysis by incorporating literature information as a directed Knowledge Graph, showing that low-dimensional representations of the graph retain biological information and that projected cellular profiles recapitulate their transcriptomes.
+
+This project was undertaken as part of the UCL-Yale exchange programme in collaboration with [Smita Krishnaswamy](https://github.com/KrishnaswamyLab) and [Aarthi Venkat](https://github.com/aarthivenkat). Aarthi provided the wavelet module and invaluable help with designing the approach and navigating the issues encountered.
 
 ##  KG design
 
@@ -21,6 +23,7 @@ Idea of talking (Ligands), hearing (receptors), and listening (PTMs)
 * NicheNet
 * CellChat
 * REACTOME
+* OmniPath
 
 ### Methods
 * Pathways should be edge annotations (essentially, annotating the triples with a single/list of pathways) 
